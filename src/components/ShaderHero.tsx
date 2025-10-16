@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function ShaderHero() {
   return (
-    <div className="relative w-full h-full flex items-center justify-center">
+    <div className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
       <AnimatedGradient />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 text-center w-full flex flex-col items-center justify-center">
